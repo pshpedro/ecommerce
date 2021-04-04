@@ -6,14 +6,13 @@ $app = new \Slim\Slim();
 
 $app->config('debug', true);
 
-$app->get('/', function(){
-		    
-			$page = new Hcode\Page();
+$app->get('/', function() {
+    
+	$page = new Hcode\Page();
 
-			$page->setTpl("index");
+	$page->setTpl("index");
 
-		}
-	);
+});
 
 $app->run();
 
