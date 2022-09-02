@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'pshpedr0/ecommerce',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'pshpedro/ecommerce',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '7ed66510817a81ff076d06f54257401894b1f63a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -19,10 +19,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'pshpedr0/ecommerce' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'pshpedro/ecommerce' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '7ed66510817a81ff076d06f54257401894b1f63a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
